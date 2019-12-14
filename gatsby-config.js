@@ -3,6 +3,7 @@ module.exports = {
     title: `Nicole Morell for Medford City Council`,
     description: `Nicole Morell is running for Medford City Council. She is passionate about community-led development, affordable housing, funding for public schools, and the environment.`,
     author: `Nicole Morell`,
+    siteUrl: `https://nicole-morell-blog.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
