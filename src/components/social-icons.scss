@@ -1,0 +1,20 @@
+.SocialIcons {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  &-listItem {
+    margin: 0 .75em;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &-link {
+    display: block;
+  }
+  svg {
+    pointer-events: none;
+  }
+}

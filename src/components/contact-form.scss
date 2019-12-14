@@ -1,0 +1,64 @@
+$text-color--primary: #0D6647;
+$white: #fff;
+
+.ContactForm {
+  &-fieldSet,
+  &-input {
+    max-width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  &-input {
+    padding: .25em .5em;
+    -webkit-appearance: none;
+    font: inherit;
+    width: 100%;
+    display: block;
+
+    @media (min-width: 768px) {
+      &--fullWidth {
+        width: 100%;
+      }
+    }
+    &--birthday {
+      display: inline-block;
+      max-width: none;
+      width: 50px;
+      text-align: center;
+      margin-right: .5em;
+    }
+  }
+  &-button {
+    background: $text-color--primary;
+    color: $white;
+    padding: .5em 1em;
+    font: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background: darken($text-color--primary, 5%);
+    }
+  }
+  &-successText,
+  &-errorText {
+    a {
+      color: $text-color--primary;
+    }
+  }
+  &-successText {
+    color: green;
+  }
+  &-errorText {
+    color: red;
+  }
+  &-checkBox {
+    margin-right: .5em;
+  }
+}
+
+textarea.ContactForm-input {
+  min-height: 250px;
+  width: 100%;
+}

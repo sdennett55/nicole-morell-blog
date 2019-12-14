@@ -1,0 +1,25 @@
+.Banner {
+  text-align: center;
+  background: #2e598f;
+  color: #fff;
+  font-size: 1.25em;
+  text-decoration: none;
+  line-height: normal;
+  border-top: 6px solid #940f15;
+  border-bottom: 6px solid #940f15;
+
+  @media (min-width: 768px) {
+    font-size: 1.5em;
+  }
+
+  &-inner {
+    padding: 1em;
+    border-top: 2px solid #ebead9;
+    border-bottom: 2px solid #ebead9;
+  }
+
+  &-cta {
+    display: inline-block;
+    text-decoration: underline;
+  }
+}

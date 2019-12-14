@@ -1,0 +1,151 @@
+$text-color--primary: #0D6647;
+$white: #fff;
+
+@font-face {
+  src: url('../fonts/merriweather-regular-webfont.woff2') format('woff2'), url('../fonts/merriweather-regular-webfont.woff') format('woff');
+  font-family: 'Merriweather';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url('../fonts/merriweather-bold-webfont.woff2') format('woff2'), url('../fonts/merriweather-bold-webfont.woff') format('woff');
+  font-family: 'Merriweather';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.Nav {
+  $root: &;
+  background: $white;
+  font-family: 'Merriweather', 'Times New Roman', 'Times', serif;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+
+  &.is-open {
+    .Nav-button--close {
+      display: block;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+    .Nav-button--menu {
+      display: none;
+    }
+    .Nav-list {
+      max-height: 432px;
+    }
+  }
+
+  &-list {
+    max-height: 0;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: max-height .25s;
+
+    @media (min-width: 768px) {
+      overflow: visible;
+      max-height: none;
+      margin: 0 auto;
+      width: 90%;
+      max-width: 980px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &-listItem {
+    // @media (min-width: 768px) {
+    //   &::after {
+    //     content: '';
+    //     position: absolute;
+    //     right: -3px;
+    //     top: 50%;
+    //     transform: translateY(-50%) rotate(45deg);
+    //     width: 6px;
+    //     height: 6px;
+    //     background: $text-color--primary;
+    //   }
+    //   &:last-child {
+    //     &::after {
+    //       display: none;
+    //     }
+    //   }
+    // }
+  }
+  &-menuCopy {
+    position: relative;
+    &::before {
+      content: '';
+      width: 16px;
+      height: 3px;
+      position: absolute;
+      top: 4px;
+      left: -24px;
+      border-top: 2px solid $text-color--primary;
+      border-bottom: 2px solid $text-color--primary;
+      border-radius: 2px;
+      transition: border-color .25s;
+    }
+    &::after {
+      content: '';
+      width: 16px;
+      position: absolute;
+      top: 14px;
+      left: -24px;
+      border-top: 2px solid $text-color--primary;
+      border-radius: 2px;
+      transition: border-color .25s;
+    }
+  }
+  &-button,
+  &-link {
+    display: block;
+    padding: 1em 0;
+    color: $text-color--primary;
+    text-decoration: none;
+    text-align: center;
+    transition: background .25s, color .25s;
+
+    &:hover,
+    &:focus {
+      background: $text-color--primary;
+      color: $white;
+      outline: 0;
+
+      #{$root}-menuCopy {
+        &::before,
+        &::after {
+          border-color: $white;
+        }
+      }
+
+      @media (min-width: 768px) {
+        background: 0;
+        color: $text-color--primary;
+        text-decoration: underline;
+      }
+    }
+  }
+  &-button {
+    width: 100%;
+    background: 0;
+    border: 0;
+    -webkit-appearance: none;
+    font: inherit;
+    display: block;
+
+    // hide close button by default
+    &--close {
+      display: none;
+    }
+    &--close,
+    &--menu {
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}
