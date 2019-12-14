@@ -15,3 +15,5 @@ This is just regular text in the blog post.
   * List inside a list
   * woah
   * neat
+
+![a random image from my desktop, just testing](/assets/value_prop.jpg "this is the text you get when you hover over the image, pretty pointless if you have alt text.")
