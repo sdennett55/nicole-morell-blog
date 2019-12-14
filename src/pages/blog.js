@@ -46,6 +46,7 @@ class Blog extends React.Component {
                   <small>{node.frontmatter.date}</small>
                 </div>
                 <p
+                  style={{marginTop: '.5em'}}
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
