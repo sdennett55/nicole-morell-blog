@@ -55,6 +55,9 @@ strong {
   @media (min-width: 768px) {
     padding: 2em;
   }
+  img {
+    max-width: 100%;
+  }
   a,
   &-link {
     color: $text-color--primary;
