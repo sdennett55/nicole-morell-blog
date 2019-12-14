@@ -15,5 +15,5 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: description, label: Description }
-      - { label: "Featured Image", name: "thumbnail", widget: "image"}
+      - { label: "Featured Image", name: "thumbnail", widget: "image", required: "false"}
       - { name: body, label: Body, widget: markdown }
