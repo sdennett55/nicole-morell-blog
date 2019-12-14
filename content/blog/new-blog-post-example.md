@@ -6,8 +6,6 @@ description: >-
   This is just a short description of the post that you'd see on the blogs page
   before you select the post.
 ---
-# This is the big H1 title of the post
-
 ## This is using the H2 title
 
 This is just regular text in the blog post.
