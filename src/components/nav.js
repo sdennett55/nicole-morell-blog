@@ -42,11 +42,11 @@ class Nav extends Component {
               Meet Nicole
             </Link>
           </li>
-          <li className="Nav-listItem">
+          {/* <li className="Nav-listItem">
             <Link onClick={this.handleToggle} to="/why-im-running/" className="Nav-link">
               Why I'm Running
             </Link>
-          </li>
+          </li> */}
           <li className="Nav-listItem">
             <Link onClick={this.handleToggle} to="/priorities/" className="Nav-link">
               Priorities
@@ -67,11 +67,11 @@ class Nav extends Component {
               Contact
             </Link>
           </li>
-          <li className="Nav-listItem">
+          {/* <li className="Nav-listItem">
             <Link onClick={this.handleToggle} to="/blog/" className="Nav-link">
               Blog
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     );

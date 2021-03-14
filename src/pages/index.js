@@ -44,29 +44,31 @@ class IndexPage extends React.Component {
         />
         <h1 className="Main-title">Home</h1>
         <div className="Body-copy">
-          <h2 className="Main-subTitle Main-subTitle--bottom">I'm running for the future.</h2>
+          <h2 className="Main-subTitle Main-subTitle--bottom">I’m running for re-election.</h2>
           <p className="Body-firstLine">
-            I’m running for city council to create a future that works for all
-            of us.
+            Why?
           </p>
           <p>
-            My husband and I first lived in Medford as renters and fell in love
-            with the city, its history, and strong sense of community. We made
-            the decision to make Medford our future. As first-time homeowners,
-            we want to raise our future family here. We have made a strong
-            commitment to Medford.
+            In 2019, Medford residents elected me to my first term as city councilor. You gave me a chance to serve based on countless conversations on doorsteps, phone calls, events, and word of mouth.
           </p>
           <p>
-            Medford is a city in transition, a city with a bright future filled
-            with promise and enrichment. We need strong leadership to navigate
-            the many challenges we face along the way.
-          </p>
+            In my first term, I have worked hard to deliver for Medford.</p>
+          <p>In my first year on the council I introduced and passed a resolution for an expansion of eligibility for the senior tax deferral program.</p>
+
+          <p>I submitted the amendment adding language for brewpubs to the new brewery zoning amendment, paving the way for breweries and brewpub restaurants to open in Medford.</p>
+
+          <p>I advocated for better pedestrian and bike infrastructure in Medford through multiple resolutions.</p>
+
+          <p>I fought for preserving historic buildings and open space in our community.</p>
+          <p>I co-sponsored the resolution classifying systemic racism as a public health crisis in Medford.</p>
+          <p>I’ve pushed the council to take action on preserving our tree canopy and elevating a diverse set of voices through the proposed Gender Equity Commission.</p>
+          <p>I fought to give the local anti-poverty community action agency the money they need to administer emergency rental assistance for those facing housing insecurity in Medford.</p>
+          <p>I pushed for monthly updates and information on Medford's fight against the coronavirus.</p>
+          <p>I voted against a budget that I felt forced our schools to bear too much of the burden for a lean year.</p>
+          <p> I made a commitment to voters to be your voice on the council, and I believe I have done that. </p>
           <p>
-            I will actively work with you for sustainable development,
-            investment in our infrastructure, and support of green and open
-            space in the city.
+            But my work is not done yet, which is why I’m running for re-election and asking for your vote.
           </p>
-          <p>I ask for your vote for the future of Medford.</p>
         </div>
         <Image1 className="Body-image" />
         <Image2 className="Body-image" />
