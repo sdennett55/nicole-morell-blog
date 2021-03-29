@@ -23,7 +23,7 @@ const Photo = ({src, className}) => {
 
       image3: file(relativePath: { eq: "homepage.jpg" }) {
         childImageSharp {
-          fixed(width: 972) {
+          fixed(width: 650) {
             ...GatsbyImageSharpFixed_withWebp
           }
         }

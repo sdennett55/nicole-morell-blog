@@ -31,6 +31,16 @@ const Layout = ({ children }) => (
           <div className="Main-left">
             <main className="Main">{children}</main>
           </div>
+          <aside className="Main-aside">
+            <a
+              data-chrome="nofooter noborders transparent"
+              data-tweet-limit="3"
+              className="twitter-timeline"
+              href="https://twitter.com/morell4medford?ref_src=twsrc%5Etfw"
+            >
+              Tweets by morell4medford
+            </a>
+          </aside>
         </div>
         <Footer />
       </>
