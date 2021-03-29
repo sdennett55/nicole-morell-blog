@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import addToMailchimp from "gatsby-plugin-mailchimp"
-import { Image1, Image2, Image3 } from "../components/image"
+import { Image1 } from "../components/image"
 import cx from "classnames"
 
 class IndexPage extends React.Component {
@@ -42,10 +42,9 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`nicole`, `morell`, `medford`, `city`, `council`]}
         />
-        <h1 className="Main-title">Home</h1>
         <div className="Body-copy">
-          <h2 className="Main-subTitle Main-subTitle--bottom">I’m running for re-election.</h2>
-          <p className="Body-firstLine">
+          <h1 className="Main-title">I’m running for re-election.</h1>
+          <p>
             Why?
           </p>
           <p>
@@ -71,8 +70,6 @@ class IndexPage extends React.Component {
           </p>
         </div>
         <Image1 className="Body-image" />
-        <Image2 className="Body-image" />
-        <Image3 className="Body-image" />
         <h2 className="Main-title Main-title--sub">
           Subscribe to my mailing list
         </h2>

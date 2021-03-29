@@ -54,7 +54,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-twitter`,
     `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-mdx`,
