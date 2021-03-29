@@ -21,23 +21,7 @@ const Photo = ({src, className}) => {
         }
       }
 
-      image3: file(relativePath: { eq: "image1.jpeg" }) {
-        childImageSharp {
-          fixed(width: 650) {
-            ...GatsbyImageSharpFixed_withWebp
-          }
-        }
-      }
-
-      image4: file(relativePath: { eq: "image2.jpeg" }) {
-        childImageSharp {
-          fixed(width: 650) {
-            ...GatsbyImageSharpFixed_withWebp
-          }
-        }
-      }
-
-      image5: file(relativePath: { eq: "image3.jpeg" }) {
+      image3: file(relativePath: { eq: "homepage.jpg" }) {
         childImageSharp {
           fixed(width: 650) {
             ...GatsbyImageSharpFixed_withWebp
@@ -62,12 +46,4 @@ export const MeetNicoleImage = ({className}) => (
 
 export const Image1 = ({className}) => (
   <Photo src="image3" className={className} />
-);
-
-export const Image2 = ({className}) => (
-  <Photo src="image4" className={className} />
-);
-
-export const Image3 = ({className}) => (
-  <Photo src="image5" className={className} />
 );
