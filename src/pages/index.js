@@ -53,11 +53,11 @@ class IndexPage extends React.Component {
           <p>
             In my first term, I have worked hard to deliver for Medford.</p>
           <p>In my first year on the council I introduced and passed a resolution for an expansion of eligibility for the senior tax deferral program.</p>
-
           <p>I submitted the amendment adding language for brewpubs to the new brewery zoning amendment, paving the way for breweries and brewpub restaurants to open in Medford.</p>
-
           <p>I advocated for better pedestrian and bike infrastructure in Medford through multiple resolutions.</p>
-
+          <p>
+            I pushed for budget inclusion and funding of translation services for city communications.
+          </p>
           <p>I fought for preserving historic buildings and open space in our community.</p>
           <p>I co-sponsored the resolution classifying systemic racism as a public health crisis in Medford.</p>
           <p>I’ve pushed the council to take action on preserving our tree canopy and elevating a diverse set of voices through the proposed Gender Equity Commission.</p>
