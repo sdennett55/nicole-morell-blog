@@ -48,8 +48,8 @@ class Nav extends Component {
             </Link>
           </li> */}
           <li className="Nav-listItem">
-            <Link onClick={this.handleToggle} to="/priorities/" className="Nav-link">
-              Priorities
+            <Link onClick={this.handleToggle} to="/priorities-and-accomplishments/" className="Nav-link">
+              Priorities and Accomplishments
             </Link>
           </li>
           <li className="Nav-listItem">
